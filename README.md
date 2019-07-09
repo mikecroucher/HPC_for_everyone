@@ -5,7 +5,7 @@ https://mikecroucher.github.io/HPC_for_everyone
 
 ## Where I have given versions of this talk
 
-   * N8 Computational Intensive Research
+   * N8 Computational Intensive Research Meetup: July 2019
    * University of Bath: May 2019
 
 ## References

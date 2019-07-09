@@ -1,4 +1,7 @@
-Material for the University of Bath HPC talk: https://mikecroucher.github.io/HPC_for_everyone
+More people need HPC than ever and yet so few people seem to care.  
+What can we do to democratise access to our HPC services?
+
+https://mikecroucher.github.io/HPC_for_everyone
 
 ## References
 

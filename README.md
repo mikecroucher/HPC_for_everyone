@@ -3,6 +3,11 @@ What can we do to democratise access to our HPC services?
 
 https://mikecroucher.github.io/HPC_for_everyone
 
+## Where I have given versions of this talk
+
+   * N8 Computational Intensive Research
+   * University of Bath: May 2019
+
 ## References
 
 I used the following in the preparation of this slide deck

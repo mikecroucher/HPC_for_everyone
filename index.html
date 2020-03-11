@@ -42,10 +42,9 @@
 		<!-- Any section element inside of this container is displayed as a slide -->
 		<div class="slides">
 			<section data-background="background.png">
-				<h2 class='glow'>HPC: Why do so few people care?</h2>
+				<h2 class='glow'>Why no one cares about HPC!</h2>
 
-				<p>
-					Mike Croucher</p>
+				<p>Mike Croucher</p>
 				<p>Product Manager for Cloud and ML</p>
 				<p>Numerical Algorithms Group (NAG)</p>
 				<a href="http://www.nag.com">www.nag.com</a>
@@ -54,15 +53,6 @@
 				<br>
 				<a href="mailto:Michael.Croucher@nag.co.uk">Michael.Croucher@nag.co.uk</a>
 				</p>
-			</section>
-		
-				<section data-background="background.png">
-				<h2 class='glow'>Why am I here?</h2>
-				<ul>
-					<li class="fragment"> I love the academic RSE community
-					<li class="fragment"> I would argue that NAG was the first RSE group
-					<li class="fragment"> I want to explore ways where NAG can collaborate with all of you
-				</ul>
 			</section>
 
 			<section data-background="background.png">
@@ -75,6 +65,15 @@
 					<li class="fragment"> Commercial HPC and cloud (NAG)</li>
 				</ul>
 			</section>
+
+			<section data-background="background.png">
+				<h2 class='glow'>Why am I here?</h2>
+				<ul>
+					<li class="fragment"> I believe that HPC has the promise to fundamentally change how we do science
+					<li class="fragment"> I think that traditional HPC models don't deliver on the promise
+					<li class="fragment"> I believe that NAG can help cloud vendors deliver the promise
+				</ul>
+				</section>
 
 			<section data-background="background.png">
 				<h2 class='glow'>Why the title?</h2>
@@ -214,6 +213,15 @@
 					</section>
 
 					<section data-background="hpc_computing.png" data-background-size="contain"></section>
+
+							 
+				<section data-background="background.png">
+					<h2 class='glow'>The queue</h2>
+					<iframe src="https://giphy.com/embed/5YuhLwDgrgtRVwI7OY" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+			</section>
+
+			<section data-background="boof_compute.png" data-background-size="contain"></section>
+
 					
 					<section data-background="background.png">
 							<h2 class='glow'>We can do better</h2>
@@ -221,7 +229,7 @@
 
 					<section data-background="jupyter_slurm.png" data-background-size="contain"></section>
 					<section data-background="chryswoods.png" data-background-size="contain"></section>
-					<section data-background="drop_and_compute.png" data-background-size="contain"></section>
+					<section data-background="nag_ship.png" data-background-size="contain"></section>
 					
 
 				<section data-background="background.png">
@@ -229,135 +237,68 @@
 						<iframe src="https://giphy.com/embed/cRH5deQTgTMR2" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 						<p>Our HPC is the easiest to use in the world!</p>
 				</section>
-		 
+
+
 				<section data-background="background.png">
-						<h2 class='glow'>The queue</h2>
-						<iframe src="https://giphy.com/embed/5YuhLwDgrgtRVwI7OY" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+					<h2 class='glow'>What is HPC?</h2>
+					<p class="fragment">Croucher (2020): You are doing HPC as soon as you CARE about speed, memory or storage.</p>
+					<p class="fragment">Many people will disagree with this</p>
 				</section>
 
 				<section data-background="background.png">
-						<h2 class='glow'>Can you give me 10x speedup on demand?</h2>
-					</section>
-
-					<section data-background="background.png">
-							<h2 class='glow'>Reproducibility is hard</h2>
-					</section>
-
-					<section data-background="background.png">
-							<h2 class='glow'>My low bar</h2>
-							<p>I want to run your code, using your data and workflow and get the same results you did</p>
-							<p class="fragment fade-in">On my machine</p>
-					</section>
-
-					<section data-background="background.png">
-							<h1 class='glow'>Automated</h1>
-						</section>
-						<section data-background="background.png">
-							<p><font size="36">The Ideal</font></p>
-							<p class="fragment fade-in"><font size="36">Results = TheAnalysis(MyData)</font></p>
-							<img src="domino_success.gif" class="fragment fade-in">
-						</section>
-						<section data-background="background.png">
-							<p><font size="36">Reality</font></p>
-							<img src="domino_one.gif" class="fragment fade-in">
-						</section>
-
-						<section data-background="background.png">
-								<h2 class='glow'>Use version control</h2>
-								<p class="fragment fade-in">Include your submission scripts</p>
-						</section>
-
-						<section data-background="background.png">
-								<h2 class='glow'>Don't forget the environment</h2>
-								<p>How was everything compiled?</p>
-						</section>
-
-						<section data-background="background.png">
-								<h2 class='glow'>Reproducibility in HPC: The full story</h2>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/UyNYP8tMRvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</section>
-					
-
-				<section data-background="background.png">
-						<h2 class='glow'>Parallelisation is hard</h2>
+					<h2 class='glow'>Remember this?</h2>
+					<p>“Currently, many researchers fit their scientific models to only a subset of available parameters for faster program runs.”</p>
 				</section>
 
 				<section data-background="background.png">
-						<h2 class='glow'>Parallelisation and adding up</h2>
-						<p>ans = 0.1 + 0.2 + 0.3</p>
-						<p>order matters!</p>
-			</section>
-			
-			<section data-background="background.png">	
-							<h2 class='glow'>order matters</h2>
-							<p class="fragment fade-in">x = (0.1+0.2) + 0.3 = 0.60000000000000009</p>
-							<p class="fragment fade-in">y = 0.1 + (0.2+0.3) = 0.59999999999999998</p>
+					<h2 class='glow'>Supporting the long tail</h2>
+					<p class='glow'>End to end support</p>
+					<ul>
+						<li class="fragment">Idiomatic programming / application use</li>
+						<li class="fragment">Faster language / software </li>
+						<li class="fragment">Algorithmic improvements</li>
+						<li class="fragment">Care about hardware (threads, AVX, GPU, FPGA)</li>
+						<li class="fragment">Scale up (Cloud)</li>
+						<li class="fragment">Deploy to users  (Cloud)</li>
+					</ul>			
+				</section>
+
+				<section data-background="faster.png" data-background-size="contain"></section>	
+				<section data-background="scotia.png" data-background-size="contain"></section>
+				<section data-background="seismic.png" data-background-size="contain"></section>
+
+					<section data-background="background.png">
+							<h2 class='glow'>What happens when you provide this support?</h2>
+							<p class="fragment">They use more of everything!</p>
+					</section>
+
+					<section data-background="ooominds.png" data-background-size="contain"></section>
+
+					<section data-background="background.png">
+						<h2 class='glow'>ooominds speed-up</h2>
+						<p class="fragment">Toy data set: 15,000 events. Matrix size 8000 x 8000</p>
+						<p class="fragment">No parallelisation</p>
+						<p class="fragment">Original code took 5725 seconds</p>
+						<p class="fragment">New 32 core sparse CPU version: 131 seconds</p>
+						<p class="fragment">V100 GPU version: 49 seconds</p>
+					</section>
+
+					<section data-background="background.png">
+						<h2 class='glow'>The response?</h2>
+						<p class="fragment">Full data set with 11 million events (733x bigger) 
+						<p class="fragment">Matrix size 43,000 x 43,000 (29x bigger)</p>
+						<p class="fragment">Working on deployment solution in the cloud to allow other linguists to upload data</p>
+						<p class="fragment">Want to do cost comparison.  What is the cheapest way to do this analysis?</p>
+				</section>
+
+				<section data-background="background.png">
+					<h2 class='glow'>The HPC dream</h2>
+					<p class="fragment">HPC that's easy to use
+					<p class="fragment">Support partnership that ensure optimal use of HPC
+					<p class="fragment">Together we can revolutionise science
 			</section>
 
-			<section data-background="local_opt.png" data-background-size="contain"></section>
-
-<section data-background="background.png">
-	
-		<h2 class='glow'>Technological drivers</h2>
-		<ul>
-		<li class="fragment fade-in"> Many core parallelism</li>
-		<li class="fragment fade-in"> Low precision arithmetic</li>
-		<li class="fragment fade-in"> Vectorisation</li>
-		<li class="fragment fade-in"> Exotic hardware</li>
-		</ul>
-</section>
-
-				<section data-background="technology.png" data-background-size="contain"></section>
-				<section data-background="pop.png"></section>
-			
-				<section data-background="background.png">
-						<h2 class='glow'>People</h2>
-						<p>Research Software Engineers</p>
-				</section>
-
-				<section data-background="national_rse.png" data-background-size="contain"></section>
 		
-			<section data-background="background.png">
-				<h2>10x speedup? No problem!</h2>
-				<img src="logos.png" class="fragment">
-				<p class="fragment">RSE Support</p>
-			</section>
-
-			<section data-background="faster.png" data-background-size="contain"></section>	
-			<section data-background="mountain_guide.png" data-background-size="contain"></section>
-
-		 <section data-background="background.png"><h2>RSE Support</h2>		
-			<p>All good Universities have a central RSE support function.</p>
-		</section>
-
-<section data-background="background.png"> 
-		<h2 class='glow'>Support your RSE team</h2>
-		<ul>
-		<li class="fragment fade-in"> Co-authors on papers</li>
-		<li class="fragment fade-in"> Add them to your grants</li>
-		<li class="fragment fade-in"> Invite them to your seminar series</li>
-		<li class="fragment fade-in"> Don't ask them to fix your printer</li>
-		</ul>
-</section>
-
-<section data-background="background.png">
-		<h2 class='glow'>Support your RSE team</h2>
-    <p>Or you will lose them!</p>
-</section>
-
-<section data-background="rse_conf2016.jpg" data-background-size="contain"></section>
-<section data-background="deRSE19_groupPhoto1.jpg" data-background-size="contain"></section>
-<section data-background="cross_council_ssi.png" data-background-size="contain"></section>		
-
-<section data-background="background.png">
-		<h2 class='glow'>What next?</h2>
-		<p>Discuss with me how you are solving these problems</p>
-		<p>What problems did I miss</p>
-</section>
-
-<section data-background="background.png">
-		<h2 class='glow'>NAG and HPC</h2>
-</section>
 <section data-background="hpc_services.png" data-background-size="contain"></section>
 
 		
